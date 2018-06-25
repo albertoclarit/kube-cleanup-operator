@@ -23,7 +23,7 @@ spec:
       #serviceAccountName: cleanup-operator
       containers:
       - args:
-        - --namespace=default
+        - --namespace=cidemo
         image: lwolf/kube-cleanup-operator
         imagePullPolicy: Always
         name: cleanup-operator
