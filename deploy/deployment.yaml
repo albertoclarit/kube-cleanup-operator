@@ -20,7 +20,7 @@ spec:
       labels:
         run: cleanup-operator
     spec:
-      serviceAccountName: cleanup-operator
+     # serviceAccountName: cleanup-operator
       containers:
       - args:
         - --namespace=default
